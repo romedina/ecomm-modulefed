@@ -4,19 +4,6 @@ This repo is a PoC for module federation working on a Vanilla JS environment. Th
 
 ## Install and Run the environment
 
-### Installing Container
-
-From `/eccom`
-
-```shell
-cd container
-npm i
-npm run build
-npm start
-```
-
-Go to `localhost:8081`
-
 ### Installing Products
 
 From `/eccom`
@@ -30,6 +17,32 @@ npm start
 
 Go to `localhost:8080`
 
-To see the architecture working is important to have both environments running at the same time.
+### Installing Container
+
+From `/eccom`
+
+```shell
+cd container
+npm i
+npm run build
+npm start
+```
+
+Go to `localhost:8081`
+
+### Installing Cart
+
+From `/eccom`
+
+```shell
+cd cart
+npm i
+npm run build
+npm start
+```
+
+Go to `localhost:8082`
+
+To see the architecture working is important to have all the environments running at the same time.
 
 Author: Ro Medina
